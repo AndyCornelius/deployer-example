@@ -37,5 +37,4 @@ task('deploy', [
     'cleanup'
 ]);
 
-before('deploy', 'startup');
 after('deploy', 'success');
