@@ -16,10 +16,10 @@ set('ssh_multiplexing', true);
 // Servers
 
 host('test')
-    ->hostname('192.168.1.170')
+    ->hostname('192.168.1.100')
     ->user('root')
     ->identityFile('~/.ssh/id_rsa')
-    ->set('deploy_path', '/mnt/storage/html/deployer-example/deployer');
+    ->set('deploy_path', '/mnt/files/html/deployer-example/deployer');
 
 
 // Tasks
